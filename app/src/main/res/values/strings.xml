@@ -20,4 +20,6 @@
         <item>Ken</item>
         <item>Lenard</item>
     </string-array>
+
+    <string name="hello_name">Hello %1$s!</string>
 </resources>

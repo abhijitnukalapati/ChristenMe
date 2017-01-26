@@ -32,7 +32,7 @@ public class MainActivity extends AppCompatActivity {
         vWhoAmI.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                vName.setText(generateName());
+                vName.setText(getString(R.string.hello_name, generateName()));
             }
         });
     }
